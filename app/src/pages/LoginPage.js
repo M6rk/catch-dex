@@ -15,7 +15,7 @@ export default function LoginPage() {
                 <div className="bg-white rounded-3xl shadow-xl p-8 w-full max-w-lg border border-white/60">
                     <div className="text-center mb-8">
                         <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight whitespace-nowrap">
-                            Welcome to <span className="text-blue-600">Catch Dex</span>
+                            Welcome to <span className="text-blue-500">Catch Dex</span>
                         </h1>
                         <p className="mt-3 text-base text-gray-500">
                             Organize your catches with a clean, simple photo library.

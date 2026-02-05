@@ -18,6 +18,10 @@ const PhotoPage = () => {
     const navigate = useNavigate();
     const [activePhoto, setActivePhoto] = useState(null);
     const [isUploadOpen, setIsUploadOpen] = useState(false);
+    const [photoDetails, setPhotoDetails] = useState({
+        date: '11/12/28',
+        type: 'Fish'
+    });
 
     return (
         <div className="min-h-screen bg-[#184477] text-white p-8">
@@ -118,6 +122,12 @@ const PhotoPage = () => {
                                 </svg>
                                 Delete
                             </button>
+                        </div>
+                        <div className="flex items-left gap-2 w-full">
+                            <p className="opacity-50">Date: {photoDetails.date}</p>
+                        </div>
+                        <div className="flex items-left gap-2 w-full">
+                            <p className="opacity-50">{photoDetails.type}</p>
                         </div>
                     </div>
                 </div>
